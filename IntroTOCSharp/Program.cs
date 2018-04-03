@@ -19,13 +19,13 @@ namespace IntroTOCSharp
 
 
             //the number of sandwhiches You can eat when you are hungry
-            double numSandwich = 1.5;
+            decimal numSandwich = (decimal)1.5;
             Console.WriteLine($"I can eat {numSandwich} sandwiches when I'm hungry.");
 
 
             //the amount of money it costs to buy a nice dinner
-            //decimal dinnerCost = 37.73;
-            // Console.WriteLine($"It costs {dinnerCost} to buy a nice dinner.");
+            double dinnerCost = 37.73;
+            Console.WriteLine($"It costs ${dinnerCost} to buy a nice dinner.");
 
             string[] car = new string[3] { "charcoal gray", "vintage Toyota", "Land Cruiser" };
 
@@ -42,7 +42,8 @@ namespace IntroTOCSharp
 
 
             //todays date
-            // Console.WriteLine($"Today is {date}.");
+            DateTime date = DateTime.Now;
+            Console.WriteLine($"Today is {date}.");
 
 
             //the first letter of you name
